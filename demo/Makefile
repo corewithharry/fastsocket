@@ -9,5 +9,5 @@ all: server
 server: server.c server.h
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $<
 
-clean:
+clean;
 	rm -rf server
